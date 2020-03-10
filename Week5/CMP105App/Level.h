@@ -5,7 +5,7 @@
 #include "Framework/GameObject.h"
 #include <string>
 #include <iostream>
-
+#include "Zombie.h"
 
 class Level{
 public:
@@ -24,4 +24,7 @@ private:
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
+
+	sf::Texture zombTexture;
+	Zombie zombie;
 };
